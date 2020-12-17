@@ -1,6 +1,6 @@
 {
-  "name": "insomnia-plugin-hmac-auth",
-  "version": "1.0.1",
+  "name": "insomnia-plugin-hmac-auth-body-fixed",
+  "version": "1.0.6",
   "description": "An Insomnia plugin to handle HMAC authentication",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antoineandrieu/insomnia-plugin-hmac-auth"
+    "url": "https://github.com/vibou/insomnia-plugin-hmac-auth"
   },
   "keywords": [
     "insomnia",
@@ -17,11 +17,11 @@
   "author": "Antoine Andrieu <antoine@andrieu.me>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antoineandrieu/insomnia-plugin-hmac-auth/issues"
+    "url": "https://github.com/vibou/insomnia-plugin-hmac-auth/issues"
   },
-  "homepage": "https://github.com/antoineandrieu/insomnia-plugin-hmac-auth#readme",
+  "homepage": "https://github.com/vibou/insomnia-plugin-hmac-auth#readme",
   "insomnia": {
-    "name": "insomnia-plugin-hmac-auth",
+    "name": "insomnia-plugin-hmac-auth-body-fixed",
     "description": "An Insomnia plugin that add a customizable HMAC template tag."
   }
 }
