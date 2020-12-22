@@ -87,8 +87,11 @@ module.exports.templateTags = [
             if (typeof match[6] === "string") {
                 uri += match[6];
             }
-            hmac.update(uri);
+            
+            const encodedURI = encodeURI(uri)            
+            hmac.update(encodedURI);
             // console.log('uri', match, uri);
+            // console.log('encodedURI', encodedURI);
 
             const body = request.body.text;
             // console.log('body', body);
